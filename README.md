@@ -1,4 +1,5 @@
                  ##ACCIDENT SEVERITY PREDICTION
+LINK OF APPLICATION-https://roadaccidentseveritypredictor-bcztffix6rnisvfnsxc7te.streamlit.app/
 
 Problem Statement:
 Most existing accident severity models focus only on getting high overall accuracy. But since most accidents are minor, these models get good accuracy just by predicting "Slight" every time — while missing the rare but serious Fatal and Serious cases that matter most. This project builds a model that pays real attention to those critical cases, not just overall accuracy, using factors like weather, time of day, day of week, and driver/casualty age band.
@@ -95,17 +96,5 @@ Next Steps/Planned Improvements:
 
 •	Making the app auto-fill the Weather and Time fields using live data instead of the user manually selecting them
 
-•	Instead of displaying only the class, show it clearly:
-
-         Slight 
 				 
-         Serious 
-				 
-         Fatal 
-				 
-Also add a short explanation beneath the prediction.
-
-•	Confidence score
-
-•	Risk-Threshold Warning System
 
